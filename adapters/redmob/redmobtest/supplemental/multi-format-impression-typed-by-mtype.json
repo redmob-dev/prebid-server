@@ -211,9 +211,9 @@
             "id": "7e8f9012-3a4b-4c5d-8e6f-7a8b9c0d1e2f",
             "impid": "1",
             "price": 1.4,
-            "burl": "https://win-eu.redmob.io/winnotice/58?bi=req-35b9d7e1&ii=1&op=Q2xXmP0aR7c&bp=N2k4ZTFhVQ&sp=ZHA9MTImZHBlPTQx&bti=1&p=${AUCTION_PRICE}",
+            "burl": "https://win-eu.redmob.io/winnotice/58?bi=req-35b9d7e1&ii=1&op=Q2xXmP0aR7c&bp=N2k4ZTFhVQ&sp=ZHA9MTImZHBlPTQx&bti=1&p=1.4",
             "lurl": "https://win-eu.redmob.io/lossnotice?bi=req-35b9d7e1&ii=1&op=Q2xXmP0aR7c&bp=N2k4ZTFhVQ&sp=ZHA9MTImZHBlPTQx&lr=${AUCTION_LOSS}",
-            "adm": "<VAST version=\"3.0\"><Ad id=\"cr-90611\"><InLine><AdSystem>Redmob</AdSystem><AdTitle>Example 15s</AdTitle><Impression><![CDATA[https://win-eu.redmob.io/winnotice/58?bi=req-35b9d7e1&ii=1&op=Q2xXmP0aR7c&bp=N2k4ZTFhVQ&sp=ZHA9MTImZHBlPTQx&bti=1&p=${AUCTION_PRICE}&b=0]]></Impression><Creatives><Creative><Linear><Duration>00:00:15</Duration><MediaFiles><MediaFile delivery=\"progressive\" type=\"video/mp4\" width=\"360\" height=\"640\"><![CDATA[https://cdn.example/creatives/cr-90611.mp4]]></MediaFile></MediaFiles></Linear></Creative></Creatives></InLine></Ad></VAST>",
+            "adm": "<VAST version=\"3.0\"><Ad id=\"cr-90611\"><InLine><AdSystem>Redmob</AdSystem><AdTitle>Example 15s</AdTitle><Impression><![CDATA[https://win-eu.redmob.io/winnotice/58?bi=req-35b9d7e1&ii=1&op=Q2xXmP0aR7c&bp=N2k4ZTFhVQ&sp=ZHA9MTImZHBlPTQx&bti=1&p=1.4&b=0]]></Impression><Creatives><Creative><Linear><Duration>00:00:15</Duration><MediaFiles><MediaFile delivery=\"progressive\" type=\"video/mp4\" width=\"360\" height=\"640\"><![CDATA[https://cdn.example/creatives/cr-90611.mp4]]></MediaFile></MediaFiles></Linear></Creative></Creatives></InLine></Ad></VAST>",
             "adomain": [
               "travel.example.com"
             ],

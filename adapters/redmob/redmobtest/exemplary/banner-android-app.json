@@ -193,9 +193,9 @@
             "id": "0e9b6c5a-2f47-4d1e-b3a8-7c4f1e2d6a90",
             "impid": "1",
             "price": 0.31,
-            "burl": "https://win-eu.redmob.io/winnotice/58?bi=req-a41d07e2&ii=1&op=Q2xXmP0aR7c&bp=N2k4ZTFhVQ&sp=ZHA9MTImZHBlPTQx&bti=1&p=${AUCTION_PRICE}",
+            "burl": "https://win-eu.redmob.io/winnotice/58?bi=req-a41d07e2&ii=1&op=Q2xXmP0aR7c&bp=N2k4ZTFhVQ&sp=ZHA9MTImZHBlPTQx&bti=1&p=0.31",
             "lurl": "https://win-eu.redmob.io/lossnotice?bi=req-a41d07e2&ii=1&op=Q2xXmP0aR7c&bp=N2k4ZTFhVQ&sp=ZHA9MTImZHBlPTQx&lr=${AUCTION_LOSS}",
-            "adm": "<a href=\"https://click.example/c?cr=cr-55107\" target=\"_blank\"><img src=\"https://cdn.example/creatives/cr-55107.png\" width=\"320\" height=\"50\" alt=\"\"/></a><img src=\"https://win-eu.redmob.io/winnotice/58?bi=req-a41d07e2&ii=1&op=Q2xXmP0aR7c&bp=N2k4ZTFhVQ&sp=ZHA9MTImZHBlPTQx&bti=1&p=${AUCTION_PRICE}&b=0\" style=\"position:absolute;left:-9999px\"/>",
+            "adm": "<a href=\"https://click.example/c?cr=cr-55107\" target=\"_blank\"><img src=\"https://cdn.example/creatives/cr-55107.png\" width=\"320\" height=\"50\" alt=\"\"/></a><img src=\"https://win-eu.redmob.io/winnotice/58?bi=req-a41d07e2&ii=1&op=Q2xXmP0aR7c&bp=N2k4ZTFhVQ&sp=ZHA9MTImZHBlPTQx&bti=1&p=0.31&b=0\" style=\"position:absolute;left:-9999px\"/>",
             "adomain": [
               "brand.example.com"
             ],

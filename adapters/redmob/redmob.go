@@ -3,6 +3,7 @@ package redmob
 import (
 	"fmt"
 	"net/http"
+	"strconv"
 	"strings"
 
 	"github.com/prebid/openrtb/v20/openrtb2"
@@ -13,6 +14,8 @@ import (
 	"github.com/prebid/prebid-server/v4/util/jsonutil"
 	"github.com/prebid/prebid-server/v4/util/ptrutil"
 )
+
+const auctionPriceMacro = "${AUCTION_PRICE}"
 
 type adapter struct {
 	endpoint string
@@ -108,6 +111,7 @@ func (a *adapter) MakeBids(request *openrtb2.BidRequest, requestData *adapters.R
 				errs = append(errs, err)
 				continue
 			}
+			resolveAuctionPrice(bid)
 			typedBid := &adapters.TypedBid{
 				Bid:     bid,
 				BidType: bidType,
@@ -119,6 +123,16 @@ func (a *adapter) MakeBids(request *openrtb2.BidRequest, requestData *adapters.R
 		}
 	}
 	return bidResponse, errs
+}
+
+// resolveAuctionPrice replaces the ${AUCTION_PRICE} macro with the bid price in the exchange's currency (USD).
+// Left unresolved, the Prebid Universal Creative would fill it with the ad server price, which may be in another
+// currency and quantized by the price granularity; the exchange's win notices record that value as the USD cost.
+func resolveAuctionPrice(bid *openrtb2.Bid) {
+	price := strconv.FormatFloat(bid.Price, 'f', -1, 64)
+	bid.AdM = strings.ReplaceAll(bid.AdM, auctionPriceMacro, price)
+	bid.NURL = strings.ReplaceAll(bid.NURL, auctionPriceMacro, price)
+	bid.BURL = strings.ReplaceAll(bid.BURL, auctionPriceMacro, price)
 }
 
 // validateImpExt checks that the impression carries a readable Redmob bidder extension.
