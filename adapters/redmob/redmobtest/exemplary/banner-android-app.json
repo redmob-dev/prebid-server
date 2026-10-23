@@ -154,29 +154,27 @@
           "id": "req-a41d07e2",
           "seatbid": [
             {
-              "seat": "41",
               "bid": [
                 {
-                  "id": "0e9b6c5a-2f47-4d1e-b3a8-7c4f1e2d6a90",
+                  "id": "dsp-bid-1",
                   "impid": "1",
-                  "price": 0.31,
-                  "burl": "https://win-eu.redmob.io/winnotice/58?bi=req-a41d07e2&ii=1&op=Q2xXmP0aR7c&bp=N2k4ZTFhVQ&sp=ZHA9MTImZHBlPTQx&bti=1&p=${AUCTION_PRICE}",
-                  "lurl": "https://win-eu.redmob.io/lossnotice?bi=req-a41d07e2&ii=1&op=Q2xXmP0aR7c&bp=N2k4ZTFhVQ&sp=ZHA9MTImZHBlPTQx&lr=${AUCTION_LOSS}",
-                  "adm": "<a href=\"https://click.example/c?cr=cr-55107\" target=\"_blank\"><img src=\"https://cdn.example/creatives/cr-55107.png\" width=\"320\" height=\"50\" alt=\"\"/></a><img src=\"https://win-eu.redmob.io/winnotice/58?bi=req-a41d07e2&ii=1&op=Q2xXmP0aR7c&bp=N2k4ZTFhVQ&sp=ZHA9MTImZHBlPTQx&bti=1&p=${AUCTION_PRICE}&b=0\" style=\"position:absolute;left:-9999px\"/>",
+                  "price": 1.2,
+                  "nurl": "https://win-us.redmob.io/winnotice/2101/Y3ItMQ?bi=dsp-response-1&bti=3&bp=Kny8wm&sp=CJPRkL2WNBAOGLUQIBUoKTCaAzgFQhBjb20uZXhhbXBsZS5nYW1lSgVwdWItMWABcAN4AoABApgBBLABAtoBBGNyLTHyARFicmFuZC5leGFtcGxlLmNvbaoCAjQxyAIB&ii=1&op=MKBBl8j&p=${AUCTION_PRICE}&bt=n&sb=false",
+                  "burl": "https://win-us.redmob.io/winnotice/2101/Y3ItMQ?bi=dsp-response-1&bti=3&bp=Kny8wm&sp=CJPRkL2WNBAOGLUQIBUoKTCaAzgFQhBjb20uZXhhbXBsZS5nYW1lSgVwdWItMWABcAN4AoABApgBBLABAtoBBGNyLTHyARFicmFuZC5leGFtcGxlLmNvbaoCAjQxyAIB&ii=1&op=MKBBl8j&p=${AUCTION_PRICE}&bt=b&sb=false",
+                  "lurl": "https://win-us.redmob.io/lossnotice?bi=dsp-response-1&ii=1&op=MKBBl8j&bp=Kny8wm&sp=CJPRkL2WNBAOGLUQIBUoKTCaAzgFQhBjb20uZXhhbXBsZS5nYW1lSgVwdWItMWABcAN4AoABApgBBLABAtoBBGNyLTHyARFicmFuZC5leGFtcGxlLmNvbaoCAjQxyAIB&lr=${AUCTION_LOSS}",
+                  "adm": "<div>ad</div><img src=\"https://win-us.redmob.io/winnotice/2101/Y3ItMQ?bi=dsp-response-1&bti=3&bp=Kny8wm&sp=CJPRkL2WNBAOGLUQIBUoKTCaAzgFQhBjb20uZXhhbXBsZS5nYW1lSgVwdWItMWABcAN4AoABApgBBLABAtoBBGNyLTHyARFicmFuZC5leGFtcGxlLmNvbaoCAjQxyAIB&ii=1&op=MKBBl8j&p=${AUCTION_PRICE}&bt=a&sb=true&ob=true\" style=\"position:absolute;left:-9999px\"/><img src=\"https://dsp.example/burl?p=1.50\" style=\"position:absolute;left:-9999px\"/><img src=\"https://dsp.example/nurl?p=1.50\" style=\"position:absolute;left:-9999px\"/>",
                   "adomain": [
                     "brand.example.com"
                   ],
-                  "cid": "cmp-2219",
-                  "crid": "cr-55107",
-                  "cat": [
-                    "IAB22"
-                  ],
-                  "w": 320,
+                  "crid": "cr-1",
                   "h": 50,
+                  "w": 320,
                   "exp": 3600,
                   "mtype": 1
                 }
-              ]
+              ],
+              "seat": "410",
+              "group": 0
             }
           ],
           "cur": "USD"
@@ -190,22 +188,19 @@
       "bids": [
         {
           "bid": {
-            "id": "0e9b6c5a-2f47-4d1e-b3a8-7c4f1e2d6a90",
+            "id": "dsp-bid-1",
             "impid": "1",
-            "price": 0.31,
-            "burl": "https://win-eu.redmob.io/winnotice/58?bi=req-a41d07e2&ii=1&op=Q2xXmP0aR7c&bp=N2k4ZTFhVQ&sp=ZHA9MTImZHBlPTQx&bti=1&p=0.31",
-            "lurl": "https://win-eu.redmob.io/lossnotice?bi=req-a41d07e2&ii=1&op=Q2xXmP0aR7c&bp=N2k4ZTFhVQ&sp=ZHA9MTImZHBlPTQx&lr=${AUCTION_LOSS}",
-            "adm": "<a href=\"https://click.example/c?cr=cr-55107\" target=\"_blank\"><img src=\"https://cdn.example/creatives/cr-55107.png\" width=\"320\" height=\"50\" alt=\"\"/></a><img src=\"https://win-eu.redmob.io/winnotice/58?bi=req-a41d07e2&ii=1&op=Q2xXmP0aR7c&bp=N2k4ZTFhVQ&sp=ZHA9MTImZHBlPTQx&bti=1&p=0.31&b=0\" style=\"position:absolute;left:-9999px\"/>",
+            "price": 1.2,
+            "nurl": "https://win-us.redmob.io/winnotice/2101/Y3ItMQ?bi=dsp-response-1&bti=3&bp=Kny8wm&sp=CJPRkL2WNBAOGLUQIBUoKTCaAzgFQhBjb20uZXhhbXBsZS5nYW1lSgVwdWItMWABcAN4AoABApgBBLABAtoBBGNyLTHyARFicmFuZC5leGFtcGxlLmNvbaoCAjQxyAIB&ii=1&op=MKBBl8j&p=1.2&bt=n&sb=false",
+            "burl": "https://win-us.redmob.io/winnotice/2101/Y3ItMQ?bi=dsp-response-1&bti=3&bp=Kny8wm&sp=CJPRkL2WNBAOGLUQIBUoKTCaAzgFQhBjb20uZXhhbXBsZS5nYW1lSgVwdWItMWABcAN4AoABApgBBLABAtoBBGNyLTHyARFicmFuZC5leGFtcGxlLmNvbaoCAjQxyAIB&ii=1&op=MKBBl8j&p=1.2&bt=b&sb=false",
+            "lurl": "https://win-us.redmob.io/lossnotice?bi=dsp-response-1&ii=1&op=MKBBl8j&bp=Kny8wm&sp=CJPRkL2WNBAOGLUQIBUoKTCaAzgFQhBjb20uZXhhbXBsZS5nYW1lSgVwdWItMWABcAN4AoABApgBBLABAtoBBGNyLTHyARFicmFuZC5leGFtcGxlLmNvbaoCAjQxyAIB&lr=${AUCTION_LOSS}",
+            "adm": "<div>ad</div><img src=\"https://win-us.redmob.io/winnotice/2101/Y3ItMQ?bi=dsp-response-1&bti=3&bp=Kny8wm&sp=CJPRkL2WNBAOGLUQIBUoKTCaAzgFQhBjb20uZXhhbXBsZS5nYW1lSgVwdWItMWABcAN4AoABApgBBLABAtoBBGNyLTHyARFicmFuZC5leGFtcGxlLmNvbaoCAjQxyAIB&ii=1&op=MKBBl8j&p=1.2&bt=a&sb=true&ob=true\" style=\"position:absolute;left:-9999px\"/><img src=\"https://dsp.example/burl?p=1.50\" style=\"position:absolute;left:-9999px\"/><img src=\"https://dsp.example/nurl?p=1.50\" style=\"position:absolute;left:-9999px\"/>",
             "adomain": [
               "brand.example.com"
             ],
-            "cid": "cmp-2219",
-            "crid": "cr-55107",
-            "cat": [
-              "IAB22"
-            ],
-            "w": 320,
+            "crid": "cr-1",
             "h": 50,
+            "w": 320,
             "exp": 3600,
             "mtype": 1
           },

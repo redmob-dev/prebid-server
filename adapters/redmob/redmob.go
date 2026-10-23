@@ -148,8 +148,8 @@ func validateImpExt(imp openrtb2.Imp) error {
 	return nil
 }
 
-// getMediaTypeForBid uses bid.mtype when the exchange sets it. Until it does, the type is
-// inferred from the impression, which only works for single-format impressions.
+// getMediaTypeForBid uses bid.mtype, which the exchange sets on every bid. Inferring the type from the
+// impression is only a safety net for a bid without it, and only works for single-format impressions.
 func getMediaTypeForBid(bid *openrtb2.Bid, imps []openrtb2.Imp) (openrtb_ext.BidType, error) {
 	switch bid.MType {
 	case openrtb2.MarkupBanner:
